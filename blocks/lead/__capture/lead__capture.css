@@ -1,0 +1,23 @@
+.lead__capture {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+/* identical to box height, or 140% */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  align-self: start;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__capture {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__capture {
+    margin-left: 16px;
+  }
+}
