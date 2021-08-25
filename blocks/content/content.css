@@ -1,21 +1,2 @@
 .content {
-	padding: 0 148px 0 148px;
-}
-
-@media screen and (max-width: 1024px) {
-  .content {
-    padding: 0 48px 0 48px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .content {
-    padding: 0 24px 0 24px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .content {
-    padding: 16px;
-  }
 }
