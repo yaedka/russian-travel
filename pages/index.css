@@ -5,10 +5,21 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
+@import url(../blocks/content/content.css);
+
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__capture/lead__capture.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
@@ -17,6 +28,10 @@
 
 
 
+
+.body {
+    background-color: #2A2C2F;
+}
 
 
 .header__lang-list {
@@ -50,25 +65,4 @@
 }
 
 
-.lead__title {
-	font-family: Inter;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 96px;
-	line-height: 100px;
-	text-align: center;
-}
-.lead__subtitle {
-	font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 36px;
-/* or 120% */
 
-text-align: center;
-}
-
-.content {
-	left: 148px;
-}
