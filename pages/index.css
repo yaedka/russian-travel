@@ -1,9 +1,16 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
 
+@import url(../blocks/body/body.css);
+
 @import url(../blocks/root/root.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-item/header__lang-item.css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/content/content.css);
 
@@ -16,53 +23,26 @@
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-digits/intro__list-digits.css);
 
-@import url(../blocks/photo-grid/photo-grid.css);
+
+@import url(../blocks/photo-grid/photo_grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
-@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__link-header/place__link-header.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__site/place__site.css);
+@import url(../blocks/place/__title/place__title.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
-
-
-
-
-.body {
-    background-color: #2A2C2F;
-}
-
-
-.header__lang-list {
-    position: relative;
-    float: right;
-    list-style-type: none;
-
-}
-
-.header__lang-item {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 1rem;
-}
-
-.header__lang-link {
-    color: #fff;
-    font-family: Inter;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: right;
-	text-decoration-line: underline;
-}
-.header__lang-link_active {
-	text-decoration: underline;
-}
-
-
-
