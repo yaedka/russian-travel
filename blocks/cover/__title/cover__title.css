@@ -4,7 +4,11 @@
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 72px; 
+  /*
+  review: 768: .cover__title размер шрифта не соответствует макету;
+  ed: на макете размер шрифта стабилен с 728 и выше и меняется только на 787 в меньшую сторону;
+  */
   line-height: 1.06;
   text-align: center;
   z-index: 2;
@@ -15,6 +19,6 @@
   .cover__title {
     max-width: 288px;
     font-size: 32px;
-    line-height: 1.09;
+    line-height: 35px;
   }
 }

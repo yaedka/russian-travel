@@ -10,14 +10,14 @@
   padding: 8px 0 0 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead__capture {
-    margin-left: 0;
+    padding: 8px 0 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__capture {
-    margin-left: 16px;
+    padding: 8px 0 0 16px;
   }
 }
