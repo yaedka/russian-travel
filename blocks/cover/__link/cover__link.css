@@ -17,14 +17,11 @@
     bottom: 0;
     opacity: 0.3;
     transition: opacity 0.3s ease;
+    background: #2a2c2f;
 }
 
 .cover__link:hover::before {
     opacity: 0.8;
-    background: #2a2c2f;
-    /* reviwer: Этот стиль не меняется при наведении, его необходимо удалить 
-     ed: не понял, что значит не менятеся, если в макете указано сменить цвет при hover, моя реализация такая
-  */
 }
 
 /*
