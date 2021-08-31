@@ -11,6 +11,9 @@
   .place__title {
     font-size: 42px;
     line-height: 1.1;
+    max-width: 330px; /* по макету 340px, 
+    330 для решения проблемы cover__title на 768 ширине, вертикаль 
+    -- прблема решена через article.place:last-child */
   }
 }
 
